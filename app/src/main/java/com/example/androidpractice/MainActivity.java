@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         StringBuilder stringBuilder = new StringBuilder();
 
-        stringBuilder.append("Your Selected Date: ");
+        stringBuilder.append("My Selected Date: ");
 
         stringBuilder.append(datePicker.getDayOfMonth()+"/");
         stringBuilder.append((datePicker.getMonth()+1)+"/");
