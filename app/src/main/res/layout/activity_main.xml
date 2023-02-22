@@ -7,13 +7,13 @@
     tools:context=".MainActivity">
 
 <ProgressBar
-    android:progressTint="#00116E"
-    android:progressBackgroundTint="#4864FF"
+    android:progressTint="#001BAE"
+    android:progressBackgroundTint="#8598FF"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="20dp"
     android:id="@+id/progressbarid"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+    style="@android:style/Widget.ProgressBar.Horizontal"
     />
 
 </LinearLayout>
