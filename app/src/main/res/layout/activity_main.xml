@@ -10,8 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        >
+        android:layout_weight="1">
 
         <ImageView
             android:layout_width="match_parent"
@@ -23,37 +22,33 @@
     </LinearLayout>
 
     <LinearLayout
-        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        >
+        android:gravity="center">
 
         <ImageButton
-            android:padding="10dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/playButtonId"
-            android:src="@android:drawable/ic_media_play"
-            android:background="#008EFF"
-            android:tint="#C6FFE2"
-            />
-
-        <ImageButton
-            android:padding="10dp"
-            android:layout_margin="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/pauseButtonId"
-            android:src="@android:drawable/ic_media_pause"
+            android:layout_margin="5dp"
             android:background="#008EFF"
-            android:tint="#C6FFE2"
-            />
+            android:padding="10dp"
+            android:src="@android:drawable/ic_media_play"
+            android:tint="#C6FFE2" />
+
+        <ImageButton
+            android:id="@+id/pauseButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#008EFF"
+            android:padding="10dp"
+            android:src="@android:drawable/ic_media_pause"
+            android:tint="#C6FFE2" />
 
 
     </LinearLayout>
-
 
 
 </LinearLayout>

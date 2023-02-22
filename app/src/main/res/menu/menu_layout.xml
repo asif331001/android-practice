@@ -3,9 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:title="Share this app"
         android:id="@+id/shareid"
-        app:showAsAction="always"
         android:icon="@android:drawable/ic_menu_share"
+        android:title="Share this app"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/feedbackid"
+        android:title="Feedback"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/aboutusid"
+        android:title="About Us"
+        app:showAsAction="never"
+
         />
 </menu>
